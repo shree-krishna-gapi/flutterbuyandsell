@@ -1,0 +1,56 @@
+current
+ui/user/forgot_password/edit_profile_view.dart
+
+
+
+
+
+***************************************
+
+
+user/register/register_view
+adding field (state district municipality ward and street)
+getCategoryList -> rest/categories/get/api_key/hatbazarthamelktm1/limit/10/offset/0  // offline save data
+lib/constant/router.dart  -> routing pages
+lib/ui/dashboard/core/dashboard_view.dart -> bottom tabbar and Drawer
+lib/ui/dashboard/core/dashboard_view.dart ->  line no. 494
+lib/ui/dashboard/home/home_dashboard_view.dart -> homepage slider samachar title // samachar
+lib/ui/dashboard/home/blog_product_slider.dart -> homepage slider
+lib/ui/item/detail/views/safety_tips_tile_view.dart: -> product view detail
+lib/api/common pa_api.dart -> signUp data post
+            rest/users/add/api_key/hatbazarthamelktm1/
+            https://demo.wfusion.us/hatbazar/index.php/rest/appinfo/get_delete_history/api_key/hatbazarthamelktm1
+
+**************New Server Info*******************
+new sever url: https://sajilo.net/hatbazaar/index.php/login
+username: root@admin.com
+password: password
+
+base_api_url : https://sajilo.net/hatbazaar/index.php/
+
+
+
+
+token list
+genymotion 5 = e6NQe_v5Tdq39fkxpy9GxG:APA91bF4OGGUvnvkRoiFlKVHNWjAlyov4_CtF7Gd8bEjEX1PBP3SIxsLEvtvxBQEa_Jcqo8XyHpRkz9wGawzhBhjkdNZOPYevs6_tTcZFAMBn9N4viAC_If5MEgYt0Ra75qXWNytGyiP
+note 4 = cMThU59tSsGzuvnRNNZ0zc:APA91bGrQ102uj8hSRQoOQIzeDfmZxFAEEBeUnekcnYkwWKoA8Yln5iCdOI5dNNuwTdV25iyHUuS_pDjbANWcfcQqKUrewWolgqCOq2t-FQA44yRZ4W7R5SSKPUPTO428sB3K3XlYPec
+
+
+
+SharedPreferences prefs = await SharedPreferences.getInstance();
+  String catId = prefs.getString('categoryCatId');
+  String baseCategoryUrl = 'https://sajilo.net/hatbazaar/index.php/rest/subcategories/get/api_key/hatbazarthamelktm1/?cat_id=$catId';
+  print('******************************************************************************************');
+print('$baseCategoryUrl');
+
+
+remeaning task
+sub-category display filter
+ui/item/list_with_filter/product_list_with_filter_view.dart 170 line no.
+
+
+
+item_location comment state_id cause of not posting product
+
+
+YoutubePlayerController(initialVideoId: snapshot.data[index].videoUrl);
